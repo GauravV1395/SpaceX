@@ -1,0 +1,28 @@
+.card-blk {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px !important;
+  color: #708088;
+  font-weight: bold;
+  border: 2px solid #ccd5e0 !important;
+}
+.card-blk:hover {
+  background-color: #000;
+}
+
+.card-sub-blk {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-sub-blk-text {
+  margin: 0;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.card-sub-blk:hover {
+  text-align: center;
+  border-radius: 15px;
+  outline: unset;
+  color: lightgray;
+}

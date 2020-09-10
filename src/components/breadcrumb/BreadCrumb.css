@@ -1,0 +1,11 @@
+li.breadcrumb-item a {
+  color: #544f4f;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.breadcrumb {
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid #ececec;
+}
