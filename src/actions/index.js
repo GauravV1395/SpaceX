@@ -2,7 +2,6 @@ import { FETCH_HISTORY, FETCH_PAYLOAD, SET_LINK } from "./Types";
 import axiosGet from "./../utils/AxiosHelper";
 
 export const setLink = (payload) => {
-  console.log(payload);
   return {
     type: SET_LINK,
     payload: payload,

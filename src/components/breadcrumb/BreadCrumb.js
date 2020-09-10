@@ -10,12 +10,9 @@ const NavBarItems = (props) => {
 
   useEffect(() => {
     if (props.link) {
-      console.log(props);
       setLink(props.link);
     }
   }, [props.link]);
-
-  console.log(props);
 
   return (
     <div>

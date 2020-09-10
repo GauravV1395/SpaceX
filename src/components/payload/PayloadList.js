@@ -37,6 +37,7 @@ const Payload = (props) => {
 
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
+    window.scrollTo(0, 0);
   };
 
   const renderPayloadList = () => {
@@ -66,8 +67,6 @@ const Payload = (props) => {
         </DisplayCard>
       ));
   };
-
-  console.log(props.payload);
 
   return (
     <>

@@ -19,7 +19,6 @@ const History = (props) => {
   useEffect(() => {
     props.fetchHistory();
     const navBarList = getItem("link");
-    console.log(navBarList[navBarList.length - 1]);
     navBarList[navBarList.length - 1].name !== "History" &&
       navBarList.push({ name: "History", link: "/history" });
     setItem("link", navBarList);
@@ -41,6 +40,7 @@ const History = (props) => {
 
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
+    window.scrollTo(0, 0);
   };
 
   const renderHistoryList = () => {
